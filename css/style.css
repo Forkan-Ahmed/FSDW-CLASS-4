@@ -1,0 +1,20 @@
+.h{
+    height: 100px; width: 100px;
+}
+.button{
+    background-color: brown;
+}
+row::after{
+    display: block;
+    clear: both;
+    content: '';
+   
+}
+
+.slider{
+    height: 600px;
+}
+.carousel-item img{
+    height: 600px;
+
+}
