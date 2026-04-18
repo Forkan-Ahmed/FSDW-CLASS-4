@@ -4,11 +4,12 @@
 .button{
     background-color: brown;
 }
-row::after{
-    display: block;
-    clear: both;
-    content: '';
-   
+.gallery-img{
+    height: 250px;
+    object-fit: cover;
+    cursor: pointer;
+    transition:transform 0.3s;
+
 }
 
 .slider{
